@@ -18,8 +18,6 @@ public class search_1 {
     private PreparedStatement pstmt=null; 
     
     private  String book_ISBN ;
-    private  String book_authorid ;
-    private  String book_title ;
     private  String book_publisher ;
     private  String book_publishdata ;
     private  String book_price;

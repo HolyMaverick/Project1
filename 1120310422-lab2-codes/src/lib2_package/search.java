@@ -11,8 +11,6 @@ public class search  {
     private Connection conn=null;    
     private final String url="jdbc:mysql://localhost:3306/bookdb";  
     private final String username="root";  
-    private ResultSet resultSet=null;  
-    private PreparedStatement pstmt=null; 
     private  String[] book_name =new String[500];
     private  String[] author_name =new String[500];
     private  int[] book_authorid =new int[500];
